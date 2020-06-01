@@ -1,0 +1,34 @@
+{
+    "name": "i love gifs", 
+    "short_name": "i-love-gifs",
+    "description": "A GIF browser Progressive Web App",
+    "icons": [
+        {
+            "src": "/assets/images/icon-192x192.png", 
+            "type": "image/png",
+            "sizes": "192x192"
+        }
+    ],
+    "orientation" : "portrait",
+    "start_url": "/", 
+    "background_color": "#f44336", 
+    "display": "standalone", 
+    "scope": "/",
+    "theme_color": "#f44336", 
+    "shortcuts": [
+        {
+            "name": "Gif",
+            "short_name": "Giff",
+            "description": "A GIF",
+            "url": "/search",
+            "icons": [{ "src": "/assets/images/icon-192x192.png", "sizes": "192x192" }]
+        },
+        {
+            "name": "Gif",
+            "short_name": "Gif",
+            "description": "A GIF",
+            "url": "/saved",
+            "icons": [{ "src": "/assets/images/icon-192x192.png", "sizes": "192x192" }]
+        }
+    ] 
+}
